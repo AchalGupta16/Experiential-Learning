@@ -1,0 +1,283 @@
+<html>
+<head>
+<title>La Pasta Bella</title>
+
+<link rel="stylesheet" href="m3.css">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+    <h1> La Pasta Bella</h1>
+    <p>Authentic Italian Taste</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#menu">Menu</a>
+    <a href="#reservation">Reservation</a>
+    <a href="#location">Location</a>
+</nav>
+
+<section id="about">
+<h2>About Us</h2>
+<p>Welcome to <b>La Pasta Bella</b>. Enjoy delicious food, cozy ambiance and great service.</p>
+</section>
+
+<hr>
+
+<section id="gallery">
+<h2>Our Ambiance</h2>
+
+<div class="gallery">
+<img src="C:\Users\Anisha Gupta\Downloads\download1.jpeg"height = "250" width = "200">
+<img src="C:\Users\Anisha Gupta\Downloads\download2.jpeg"height = "250" width = "200">
+<img src="C:\Users\Anisha Gupta\Downloads\download3.jpeg"height = "250" width = "200">
+<img src="C:\Users\Anisha Gupta\Downloads\download6.jpeg"height = "250" width = "200">
+<img src="C:\Users\Anisha Gupta\Downloads\download7.jpeg"height = "250" width = "200">
+<img src="C:\Users\Anisha Gupta\Downloads\download8.jpeg"height = "250" width = "200">
+
+</div>
+
+</section>
+
+<hr>
+
+<section id="menu">
+<h3>Our Menu</h3>
+
+<br>
+
+<div class="menu-row">
+
+<div class="menu-box">
+
+<h4>Veg Items</h4>
+
+<div class="menu-container">
+
+<div class="card">
+<img src="C:\Users\Anisha Gupta\Downloads\wp1.jpeg"height = "150" width = "100">
+
+<h6>Margherita Pizza</h6>
+<p>₹250</p>
+<button onclick="addToCart('Margherita Pizza',250)" class="btn btn-warning btn-sm">Order</button>
+</div>
+
+<div class="card">
+<img src="C:\Users\Anisha Gupta\Downloads\wp2.jpeg"height = "150" width = "100">
+
+<h6>White Sauce Pasta</h6>
+<p>₹300</p>
+<button onclick="addToCart('White Sauce Pasta',300)" class="btn btn-warning btn-sm">Order</button>
+</div>
+
+<div class="card">
+<img src="C:\Users\Anisha Gupta\Downloads\wp3.jpeg"height = "150" width = "100">
+
+<h6>Veg Lasagna</h6>
+<p>₹320</p>
+<button onclick="addToCart('Veg Lasagna',320)" class="btn btn-warning btn-sm">Order</button>
+</div>
+
+</div>
+
+<h4>Desserts</h4>
+
+<div class="menu-container">
+
+<div class="card">
+
+<img src="C:\Users\Anisha Gupta\Downloads\03.jpeg"height = "150" width = "100">
+<h6>Chocolate Lava Cake</h6>
+<p>₹220</p>
+<button onclick="addToCart('Chocolate Lava Cake',220)" class="btn btn-warning btn-sm">Order</button>
+</div>
+
+<div class="card">
+<img src="C:\Users\Anisha Gupta\Downloads\01.jpeg"height = "150" width = "100">
+<h6>Red Velvet Cake</h6>
+<p>₹280</p>
+<button onclick="addToCart('Red Velvet Cake',280)" class="btn btn-warning btn-sm">Order</button>
+</div>
+
+<div class="card">
+<img src="C:\Users\Anisha Gupta\Downloads\02.jpeg"height = "150" width = "100">
+<h6>Brownie</h6>
+<p>₹200</p>
+<button onclick="addToCart('Brownie',200)" class="btn btn-warning btn-sm">Order</button>
+</div>
+
+</div>
+
+</div>
+
+<div class="menu-box">
+
+<h4>Non-Veg Items</h4>
+
+<div class="menu-container">
+
+<div class="card">
+<img src="C:\Users\Anisha Gupta\Downloads\wp4.jpeg"height = "150" width = "100">
+<h6>Chicken Pizza</h6>
+<p>₹400</p>
+<button onclick="addToCart('Chicken Pizza',400)" class="btn btn-warning btn-sm">Order</button>
+</div>
+
+<div class="card">
+<img src="C:\Users\Anisha Gupta\Downloads\wp5.jpeg"height = "150" width = "100"><h6>Chicken Pasta</h6>
+<p>₹350</p>
+<button onclick="addToCart('Chicken Pasta',350)" class="btn btn-warning btn-sm">Order</button>
+</div>
+
+<div class="card">
+<img src="C:\Users\Anisha Gupta\Downloads\wp6.jpeg"height = "150" width = "100">
+<h6>Grilled Chicken</h6>
+<p>₹450</p>
+<button onclick="addToCart('Grilled Chicken',450)" class="btn btn-warning btn-sm">Order</button>
+</div>
+
+</div>
+
+<h4>Drinks</h4>
+
+<div class="menu-container">
+
+<div class="card">
+<img src="C:\Users\Anisha Gupta\Downloads\04.jpeg"height = "150" width = "100">
+<h6>Cold Coffee</h6>
+<p>₹120</p>
+<button onclick="addToCart('Cold Coffee',120)" class="btn btn-warning btn-sm">Order</button>
+</div>
+
+<div class="card">
+<img src="C:\Users\Anisha Gupta\Downloads\05.jpeg"height = "150" width = "100">
+<h6>Mojito</h6>
+<p>₹150</p>
+<button onclick="addToCart('Mojito',150)" class="btn btn-warning btn-sm">Order</button>
+</div>
+
+<div class="card">
+<img src="C:\Users\Anisha Gupta\Downloads\06.jpeg"height = "150" width = "100"><h6>Fresh Lime</h6>
+<p>₹100</p>
+<button onclick="addToCart('Fresh Lime',100)" class="btn btn-warning btn-sm">Order</button>
+</div>
+
+</div>
+
+</div>
+
+</div>
+</section>
+
+<hr>
+
+<div style="text-align:center;">
+<h3>Your Order</h3>
+<ul id="cartList"></ul>
+<p id="total">Total: ₹0</p>
+<button onclick="placeOrder()" class="btn btn-success">Place Order</button>
+</div>
+
+<hr>
+
+<section id="reservation">
+
+<h2>Reserve a Table</h2>
+
+<form class="booking-form" onsubmit="bookTable(event)">
+
+<label>Name:</label>
+<input type="text" required>
+
+<label>Email:</label>
+<input type="email" required>
+
+<label>Phone:</label>
+<input type="tel" required>
+
+<label>Date:</label>
+<input type="date" required>
+
+<label>Time:</label>
+<input type="time" required>
+
+<label>Guests:</label>
+<input type="number" required>
+
+<input type="submit" value="Book Now">
+
+</form>
+
+<p id="msg" style="text-align:center;color:green;"></p>
+
+</section>
+
+<hr>
+
+<!-- Location -->
+<section id="location">
+<h2>Our Location</h2>
+
+<div style="max-width:500px; margin:auto;">
+<iframe 
+src="https://www.google.com/maps?q=Nagpur,Maharashtra&output=embed"
+width="100%" height="300">
+</iframe>
+</div>
+
+</section>
+
+<footer>
+<p>📍 Nagpur | 📞 9876543210</p>
+</footer>
+
+<script>
+
+let cart = [];
+
+function addToCart(item, price) {
+  cart.push({item: item, price: price});
+  updateCart();
+}
+
+function updateCart() {
+  let list = document.getElementById("cartList");
+  let total = 0;
+
+  list.innerHTML = "";
+
+  for(let i=0; i<cart.length; i++) {
+    let li = document.createElement("li");
+    li.innerText = cart[i].item + " - ₹" + cart[i].price;
+    list.appendChild(li);
+    total += cart[i].price;
+  }
+
+  document.getElementById("total").innerText = "Total: ₹" + total;
+}
+
+function placeOrder() {
+  if(cart.length === 0){
+    alert("Cart is empty!");
+  } else {
+    alert(" Order Placed Successfully!");
+    cart = [];
+    updateCart();
+  }
+}
+
+function bookTable(e) {
+  e.preventDefault();
+  document.getElementById("msg").innerText = "Table Booked Successfully!";
+}
+
+</script>
+
+</body>
+</html> 
